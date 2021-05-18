@@ -1,0 +1,74 @@
+﻿@model Sample.Models.Student_Details
+@{
+    Layout = null;
+   
+}
+
+<!DOCTYPE html>
+
+<html>
+<head> 
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h1>This is Details Page.</h1>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>Student ID</td>
+                <td>@Model.ID</td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td>@ViewData["student"]</td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>@Model.LastName</td>
+            </tr>
+            <tr>
+                <td>Email Address</td>
+                <td>@Model.Email</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>@Model.Gender</td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td>@Model.Phone</td>
+            </tr>
+        </table>
+    </div>
+
+    @Html.Label("Student Information", new { id = "labled" })
+
+
+
+    <br />
+    <input id="Button1" type="button" value="button" />
+    <lable id="lab">HTML Lable</lable>
+
+    <br />
+    <input id="Text1" type="text" />
+
+    <br />
+    @Html.TextBox("Helpertxt")
+
+    <h2>Getting started</h2>
+    <p>
+        ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+        enables a clean separation of concerns and gives you full control over markup
+        for enjoyable, agile development.
+    </p>
+
+
+</body>
+</html>
+
+<script>
+    var lable = document.getElementById("labled").innerText;
+    alert(lable);
+    </script>
