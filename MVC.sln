@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{A6F1E0F3-3A1A-4BAF-9D03-AAF6FD7A1FC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "..\CodeFirst\CodeFirst\CodeFirst.csproj", "{2B453286-A989-4B60-BC72-C0102215843F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		BETA|Any CPU = BETA|Any CPU
@@ -41,6 +43,18 @@ Global
 		{A6F1E0F3-3A1A-4BAF-9D03-AAF6FD7A1FC9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A6F1E0F3-3A1A-4BAF-9D03-AAF6FD7A1FC9}.Release|x86.ActiveCfg = Release|Any CPU
 		{A6F1E0F3-3A1A-4BAF-9D03-AAF6FD7A1FC9}.Release|x86.Build.0 = Release|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.BETA|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.BETA|Any CPU.Build.0 = Debug|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.BETA|x86.ActiveCfg = Debug|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.BETA|x86.Build.0 = Debug|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.Debug|x86.Build.0 = Debug|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.Release|x86.ActiveCfg = Release|Any CPU
+		{2B453286-A989-4B60-BC72-C0102215843F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
